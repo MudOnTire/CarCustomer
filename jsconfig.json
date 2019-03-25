@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "baseUrl": ".",
+    "paths": {
+      "assets/*": ["assets/*"],
+      "src/*": ["src/*"],
+      "i18n/*": ["i18n/*"]
+    }
+  }
+}

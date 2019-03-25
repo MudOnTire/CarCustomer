@@ -1,0 +1,71 @@
+{
+  "name": "carcustomer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@0x5e/react-native-alipay": "^0.2.5",
+    "@expo/react-native-action-sheet": "^2.0.1",
+    "add": "^2.0.6",
+    "axios": "^0.18.0",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.11",
+    "moment": "^2.23.0",
+    "prop-types": "^15.6.2",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-alphabetlistview": "^0.3.0",
+    "react-native-baidu-map": "^1.0.6",
+    "react-native-camera": "^1.12.0",
+    "react-native-collapsible": "^1.4.0",
+    "react-native-communications": "2.2.1",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-drag": "^1.0.2",
+    "react-native-elements": "^0.19.1",
+    "react-native-extended-stylesheet": "^0.11.1",
+    "react-native-gesture-handler": "^1.0.15",
+    "react-native-grid-list": "^1.0.9",
+    "react-native-i18n": "^2.0.15",
+    "react-native-image-picker": "^0.27.2",
+    "react-native-image-placeholder": "^1.0.14",
+    "react-native-image-slider": "^2.0.3",
+    "react-native-lightbox": "^0.7.0",
+    "react-native-linear-gradient": "^2.5.3",
+    "react-native-loading-spinner-overlay": "^1.0.1",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-modal": "^7.0.2",
+    "react-native-paper": "^2.11.1",
+    "react-native-parsed-text": "^0.0.20",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-native-switch-selector": "^1.1.10",
+    "react-native-vector-icons": "^6.1.0",
+    "react-native-video": "^4.3.1",
+    "react-navigation": "^3.0.8",
+    "react-navigation-material-bottom-tabs": "^1.0.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.1",
+    "rmc-tabs": "^1.2.27",
+    "uuid": "3.3.0",
+    "yarn": "^1.13.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "2.1.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.5",
+    "react-test-renderer": "16.6.3",
+    "webpack": "^4.27.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "assets/fonts/"
+    ]
+  }
+}
